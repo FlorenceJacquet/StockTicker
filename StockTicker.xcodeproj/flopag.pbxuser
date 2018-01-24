@@ -1,0 +1,88 @@
+// !$*UTF8*$!
+{
+	D7204482165E228D00B2E667 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = D74CF00A166F55A800FE7FA5 /* StockTicker */;
+		activeTarget = D720448A165E228D00B2E667 /* StockTicker */;
+		codeSenseManager = D74CF013166F55C600FE7FA5 /* Code sense */;
+		executables = (
+			D74CF00A166F55A800FE7FA5 /* StockTicker */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 376395176;
+			PBXWorkspaceStateSaveDate = 376395176;
+		};
+		sourceControlManager = D74CF012166F55C600FE7FA5 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	D720448A165E228D00B2E667 /* StockTicker */ = {
+		activeExec = 0;
+		executables = (
+			D74CF00A166F55A800FE7FA5 /* StockTicker */,
+		);
+	};
+	D74CF00A166F55A800FE7FA5 /* StockTicker */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = StockTicker;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D74CF012166F55C600FE7FA5 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	D74CF013166F55C600FE7FA5 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

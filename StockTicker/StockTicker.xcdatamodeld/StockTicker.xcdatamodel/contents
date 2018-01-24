@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="13B42" minimumToolsVersion="Xcode 4.1" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="StockItem" representedClassName="StockItem" syncable="YES">
+        <attribute name="indexInList" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="percentChange" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="priceChange" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="ticker" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="portfolio" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="StockPortfolio" inverseName="items" inverseEntity="StockPortfolio" syncable="YES"/>
+    </entity>
+    <entity name="StockPortfolio" representedClassName="StockPortfolio" syncable="YES">
+        <attribute name="indexInList" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="lastRefreshed" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="items" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="StockItem" inverseName="portfolio" inverseEntity="StockItem" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="StockItem" positionX="171" positionY="72" width="128" height="135"/>
+        <element name="StockPortfolio" positionX="547" positionY="162" width="128" height="105"/>
+    </elements>
+</model>

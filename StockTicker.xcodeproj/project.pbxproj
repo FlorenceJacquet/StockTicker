@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E758221189458DD00715F84 /* ios_stock_60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E758220189458DD00715F84 /* ios_stock_60x60.png */; };
+		2E758223189458EF00715F84 /* ios_stock_76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E758222189458EF00715F84 /* ios_stock_76x76.png */; };
+		2E758225189458FA00715F84 /* ios_stock_120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E758224189458FA00715F84 /* ios_stock_120x120.png */; };
+		2E7582271894590700715F84 /* ios_stock_152x152.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E7582261894590700715F84 /* ios_stock_152x152.png */; };
+		2E758229189465A200715F84 /* ios_stock_640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E758228189465A200715F84 /* ios_stock_640x960.png */; };
+		2E75822B189465AA00715F84 /* ios_stock_640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E75822A189465AA00715F84 /* ios_stock_640x1136.png */; };
+		D71870A716720318006F052E /* SectionHeaderPortfolioView~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D71870A616720318006F052E /* SectionHeaderPortfolioView~ipad.xib */; };
+		D71870A9167213D6006F052E /* StockTableCell~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D71870A8167213D5006F052E /* StockTableCell~ipad.xib */; };
+		D71870AD16723C11006F052E /* StockChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D71870AB16723C10006F052E /* StockChartViewController.m */; };
+		D71870AE16723C11006F052E /* StockChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D71870AC16723C10006F052E /* StockChartViewController.xib */; };
+		D71870B116723D0C006F052E /* YahooHistData.m in Sources */ = {isa = PBXBuildFile; fileRef = D71870B016723D0B006F052E /* YahooHistData.m */; };
+		D7204490165E228D00B2E667 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D720448F165E228D00B2E667 /* UIKit.framework */; };
+		D7204492165E228D00B2E667 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7204491165E228D00B2E667 /* Foundation.framework */; };
+		D7204494165E228D00B2E667 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7204493165E228D00B2E667 /* CoreGraphics.framework */; };
+		D720449A165E228D00B2E667 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7204498165E228D00B2E667 /* InfoPlist.strings */; };
+		D720449C165E228D00B2E667 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D720449B165E228D00B2E667 /* main.m */; };
+		D72044A0165E228D00B2E667 /* FPAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D720449F165E228D00B2E667 /* FPAAppDelegate.m */; };
+		D72044AA165E246800B2E667 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D72044A9165E246800B2E667 /* MainViewController.m */; };
+		D72B5F151668EAFC00E3807F /* PortfolioDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D72B5F131668EAFC00E3807F /* PortfolioDetailViewController.m */; };
+		D72B5F161668EAFC00E3807F /* PortfolioDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D72B5F141668EAFC00E3807F /* PortfolioDetailViewController.xib */; };
+		D72B5F191669012000E3807F /* FPAStore.m in Sources */ = {isa = PBXBuildFile; fileRef = D72B5F181669012000E3807F /* FPAStore.m */; };
+		D72B5F1B166916B300E3807F /* SectionHeaderPortfolioView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D72B5F1A166916B300E3807F /* SectionHeaderPortfolioView.xib */; };
+		D72B5F2416691DA200E3807F /* SectionHeaderPortfolioView.m in Sources */ = {isa = PBXBuildFile; fileRef = D72B5F2316691DA200E3807F /* SectionHeaderPortfolioView.m */; };
+		D72FB31F1693155B00AF5968 /* ios_stock_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = D72FB3191693155B00AF5968 /* ios_stock_57x57.png */; };
+		D72FB3201693155B00AF5968 /* ios_stock_72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = D72FB31A1693155B00AF5968 /* ios_stock_72x72.png */; };
+		D72FB3211693155B00AF5968 /* ios_stock_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = D72FB31B1693155B00AF5968 /* ios_stock_114x114.png */; };
+		D72FB3221693155B00AF5968 /* ios_stock_144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = D72FB31C1693155B00AF5968 /* ios_stock_144x144.png */; };
+		D72FB3231693155B00AF5968 /* ios_stock_512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = D72FB31D1693155B00AF5968 /* ios_stock_512x512.png */; };
+		D72FB3241693155B00AF5968 /* ios_stock_1024x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = D72FB31E1693155B00AF5968 /* ios_stock_1024x1024.png */; };
+		D730858D1670F40B00D822B4 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D730858B1670F40A00D822B4 /* SettingsViewController.m */; };
+		D730858E1670F40B00D822B4 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D730858C1670F40B00D822B4 /* SettingsViewController.xib */; };
+		D73085921670F4B300D822B4 /* EditPortfolioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D73085901670F4B200D822B4 /* EditPortfolioViewController.m */; };
+		D73085931670F4B300D822B4 /* EditPortfolioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D73085911670F4B300D822B4 /* EditPortfolioViewController.xib */; };
+		D733907E166F57CA0015B6F7 /* YahooWebServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D733907D166F57CA0015B6F7 /* YahooWebServiceRequest.m */; };
+		D7339084166F76190015B6F7 /* YahooXmlQuote.m in Sources */ = {isa = PBXBuildFile; fileRef = D7339083166F76190015B6F7 /* YahooXmlQuote.m */; };
+		D733908C166FA9AF0015B6F7 /* StockTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D733908B166FA9AF0015B6F7 /* StockTableCell.m */; };
+		D733908E166FA9E70015B6F7 /* StockTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D733908D166FA9E70015B6F7 /* StockTableCell.xib */; };
+		D738ADD51670A16800433518 /* StockDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D738ADD31670A16800433518 /* StockDetailViewController.m */; };
+		D738ADD61670A16800433518 /* StockDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D738ADD41670A16800433518 /* StockDetailViewController.xib */; };
+		D761EEA5169335430063F925 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D761EEA4169335430063F925 /* Default-568h@2x.png */; };
+		D76A97BF166CE74E00028EE6 /* TickerEditListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D76A97BE166CE74D00028EE6 /* TickerEditListViewController.m */; };
+		D76A97C4166CF41700028EE6 /* TickerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D76A97C2166CF41700028EE6 /* TickerDetailViewController.m */; };
+		D76A97C5166CF41700028EE6 /* TickerDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D76A97C3166CF41700028EE6 /* TickerDetailViewController.xib */; };
+		D774FBE4166E010200BE5741 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D774FBE3166E010200BE5741 /* CoreData.framework */; };
+		D774FBE8166E015100BE5741 /* StockTicker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D774FBE6166E015100BE5741 /* StockTicker.xcdatamodeld */; };
+		D774FBEB166E051F00BE5741 /* StockItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D774FBEA166E051F00BE5741 /* StockItem.m */; };
+		D774FBEE166E054600BE5741 /* StockPortfolio.m in Sources */ = {isa = PBXBuildFile; fileRef = D774FBED166E054600BE5741 /* StockPortfolio.m */; };
+		D7F1B3F8168DF468008BCBC3 /* StockDetailViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7F1B3F7168DF468008BCBC3 /* StockDetailViewController~ipad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E758220189458DD00715F84 /* ios_stock_60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios_stock_60x60.png; sourceTree = "<group>"; };
+		2E758222189458EF00715F84 /* ios_stock_76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios_stock_76x76.png; sourceTree = "<group>"; };
+		2E758224189458FA00715F84 /* ios_stock_120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios_stock_120x120.png; sourceTree = "<group>"; };
+		2E7582261894590700715F84 /* ios_stock_152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios_stock_152x152.png; sourceTree = "<group>"; };
+		2E758228189465A200715F84 /* ios_stock_640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios_stock_640x960.png; sourceTree = "<group>"; };
+		2E75822A189465AA00715F84 /* ios_stock_640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios_stock_640x1136.png; sourceTree = "<group>"; };
+		D71870A616720318006F052E /* SectionHeaderPortfolioView~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "SectionHeaderPortfolioView~ipad.xib"; sourceTree = "<group>"; };
+		D71870A8167213D5006F052E /* StockTableCell~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "StockTableCell~ipad.xib"; sourceTree = "<group>"; };
+		D71870AA16723C10006F052E /* StockChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockChartViewController.h; sourceTree = "<group>"; };
+		D71870AB16723C10006F052E /* StockChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockChartViewController.m; sourceTree = "<group>"; };
+		D71870AC16723C10006F052E /* StockChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StockChartViewController.xib; sourceTree = "<group>"; };
+		D71870AF16723D0B006F052E /* YahooHistData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YahooHistData.h; sourceTree = "<group>"; };
+		D71870B016723D0B006F052E /* YahooHistData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YahooHistData.m; sourceTree = "<group>"; };
+		D720448B165E228D00B2E667 /* StockTicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockTicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D720448F165E228D00B2E667 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D7204491165E228D00B2E667 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D7204493165E228D00B2E667 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D7204497165E228D00B2E667 /* StockTicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StockTicker-Info.plist"; sourceTree = "<group>"; };
+		D7204499165E228D00B2E667 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D720449B165E228D00B2E667 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D720449D165E228D00B2E667 /* StockTicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StockTicker-Prefix.pch"; sourceTree = "<group>"; };
+		D720449E165E228D00B2E667 /* FPAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPAAppDelegate.h; sourceTree = "<group>"; };
+		D720449F165E228D00B2E667 /* FPAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPAAppDelegate.m; sourceTree = "<group>"; };
+		D72044A8165E246800B2E667 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D72044A9165E246800B2E667 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D72B5F121668EAFC00E3807F /* PortfolioDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortfolioDetailViewController.h; sourceTree = "<group>"; };
+		D72B5F131668EAFC00E3807F /* PortfolioDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortfolioDetailViewController.m; sourceTree = "<group>"; };
+		D72B5F141668EAFC00E3807F /* PortfolioDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PortfolioDetailViewController.xib; sourceTree = "<group>"; };
+		D72B5F171669012000E3807F /* FPAStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPAStore.h; sourceTree = "<group>"; };
+		D72B5F181669012000E3807F /* FPAStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPAStore.m; sourceTree = "<group>"; };
+		D72B5F1A166916B300E3807F /* SectionHeaderPortfolioView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SectionHeaderPortfolioView.xib; sourceTree = "<group>"; };
+		D72B5F2216691DA200E3807F /* SectionHeaderPortfolioView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionHeaderPortfolioView.h; sourceTree = "<group>"; };
+		D72B5F2316691DA200E3807F /* SectionHeaderPortfolioView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionHeaderPortfolioView.m; sourceTree = "<group>"; };
+		D72FB3191693155B00AF5968 /* ios_stock_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios_stock_57x57.png; sourceTree = "<group>"; };
+		D72FB31A1693155B00AF5968 /* ios_stock_72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios_stock_72x72.png; sourceTree = "<group>"; };
+		D72FB31B1693155B00AF5968 /* ios_stock_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios_stock_114x114.png; sourceTree = "<group>"; };
+		D72FB31C1693155B00AF5968 /* ios_stock_144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios_stock_144x144.png; sourceTree = "<group>"; };
+		D72FB31D1693155B00AF5968 /* ios_stock_512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios_stock_512x512.png; sourceTree = "<group>"; };
+		D72FB31E1693155B00AF5968 /* ios_stock_1024x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios_stock_1024x1024.png; sourceTree = "<group>"; };
+		D730858A1670F40A00D822B4 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		D730858B1670F40A00D822B4 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		D730858C1670F40B00D822B4 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		D730858F1670F4B200D822B4 /* EditPortfolioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditPortfolioViewController.h; sourceTree = "<group>"; };
+		D73085901670F4B200D822B4 /* EditPortfolioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditPortfolioViewController.m; sourceTree = "<group>"; };
+		D73085911670F4B300D822B4 /* EditPortfolioViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditPortfolioViewController.xib; sourceTree = "<group>"; };
+		D733907C166F57CA0015B6F7 /* YahooWebServiceRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YahooWebServiceRequest.h; sourceTree = "<group>"; };
+		D733907D166F57CA0015B6F7 /* YahooWebServiceRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YahooWebServiceRequest.m; sourceTree = "<group>"; };
+		D7339082166F76190015B6F7 /* YahooXmlQuote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YahooXmlQuote.h; sourceTree = "<group>"; };
+		D7339083166F76190015B6F7 /* YahooXmlQuote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YahooXmlQuote.m; sourceTree = "<group>"; };
+		D733908A166FA9AF0015B6F7 /* StockTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockTableCell.h; sourceTree = "<group>"; };
+		D733908B166FA9AF0015B6F7 /* StockTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockTableCell.m; sourceTree = "<group>"; };
+		D733908D166FA9E70015B6F7 /* StockTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StockTableCell.xib; sourceTree = "<group>"; };
+		D738ADD21670A16800433518 /* StockDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockDetailViewController.h; sourceTree = "<group>"; };
+		D738ADD31670A16800433518 /* StockDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockDetailViewController.m; sourceTree = "<group>"; };
+		D738ADD41670A16800433518 /* StockDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StockDetailViewController.xib; sourceTree = "<group>"; };
+		D761EEA4169335430063F925 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D76A97BD166CE74D00028EE6 /* TickerEditListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TickerEditListViewController.h; sourceTree = "<group>"; };
+		D76A97BE166CE74D00028EE6 /* TickerEditListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TickerEditListViewController.m; sourceTree = "<group>"; };
+		D76A97C1166CF41700028EE6 /* TickerDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TickerDetailViewController.h; sourceTree = "<group>"; };
+		D76A97C2166CF41700028EE6 /* TickerDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TickerDetailViewController.m; sourceTree = "<group>"; };
+		D76A97C3166CF41700028EE6 /* TickerDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TickerDetailViewController.xib; sourceTree = "<group>"; };
+		D774FBE3166E010200BE5741 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D774FBE7166E015100BE5741 /* StockTicker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StockTicker.xcdatamodel; sourceTree = "<group>"; };
+		D774FBE9166E051F00BE5741 /* StockItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockItem.h; sourceTree = "<group>"; };
+		D774FBEA166E051F00BE5741 /* StockItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockItem.m; sourceTree = "<group>"; };
+		D774FBEC166E054600BE5741 /* StockPortfolio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockPortfolio.h; sourceTree = "<group>"; };
+		D774FBED166E054600BE5741 /* StockPortfolio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockPortfolio.m; sourceTree = "<group>"; };
+		D7F1B3F7168DF468008BCBC3 /* StockDetailViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "StockDetailViewController~ipad.xib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7204488165E228D00B2E667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D774FBE4166E010200BE5741 /* CoreData.framework in Frameworks */,
+				D7204490165E228D00B2E667 /* UIKit.framework in Frameworks */,
+				D7204492165E228D00B2E667 /* Foundation.framework in Frameworks */,
+				D7204494165E228D00B2E667 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7204480165E228D00B2E667 = {
+			isa = PBXGroup;
+			children = (
+				D761EEA4169335430063F925 /* Default-568h@2x.png */,
+				D72FB3191693155B00AF5968 /* ios_stock_57x57.png */,
+				2E758220189458DD00715F84 /* ios_stock_60x60.png */,
+				D72FB31A1693155B00AF5968 /* ios_stock_72x72.png */,
+				2E758222189458EF00715F84 /* ios_stock_76x76.png */,
+				D72FB31B1693155B00AF5968 /* ios_stock_114x114.png */,
+				2E758224189458FA00715F84 /* ios_stock_120x120.png */,
+				D72FB31C1693155B00AF5968 /* ios_stock_144x144.png */,
+				2E7582261894590700715F84 /* ios_stock_152x152.png */,
+				D72FB31D1693155B00AF5968 /* ios_stock_512x512.png */,
+				2E758228189465A200715F84 /* ios_stock_640x960.png */,
+				2E75822A189465AA00715F84 /* ios_stock_640x1136.png */,
+				D72FB31E1693155B00AF5968 /* ios_stock_1024x1024.png */,
+				D7204495165E228D00B2E667 /* StockTicker */,
+				D720448E165E228D00B2E667 /* Frameworks */,
+				D720448C165E228D00B2E667 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D720448C165E228D00B2E667 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D720448B165E228D00B2E667 /* StockTicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D720448E165E228D00B2E667 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D774FBE3166E010200BE5741 /* CoreData.framework */,
+				D720448F165E228D00B2E667 /* UIKit.framework */,
+				D7204491165E228D00B2E667 /* Foundation.framework */,
+				D7204493165E228D00B2E667 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7204495165E228D00B2E667 /* StockTicker */ = {
+			isa = PBXGroup;
+			children = (
+				D774FBE6166E015100BE5741 /* StockTicker.xcdatamodeld */,
+				D730858A1670F40A00D822B4 /* SettingsViewController.h */,
+				D730858B1670F40A00D822B4 /* SettingsViewController.m */,
+				D730858C1670F40B00D822B4 /* SettingsViewController.xib */,
+				D730858F1670F4B200D822B4 /* EditPortfolioViewController.h */,
+				D73085901670F4B200D822B4 /* EditPortfolioViewController.m */,
+				D73085911670F4B300D822B4 /* EditPortfolioViewController.xib */,
+				D720449E165E228D00B2E667 /* FPAAppDelegate.h */,
+				D720449F165E228D00B2E667 /* FPAAppDelegate.m */,
+				D72044A8165E246800B2E667 /* MainViewController.h */,
+				D72044A9165E246800B2E667 /* MainViewController.m */,
+				D72B5F1A166916B300E3807F /* SectionHeaderPortfolioView.xib */,
+				D71870A616720318006F052E /* SectionHeaderPortfolioView~ipad.xib */,
+				D72B5F2216691DA200E3807F /* SectionHeaderPortfolioView.h */,
+				D72B5F2316691DA200E3807F /* SectionHeaderPortfolioView.m */,
+				D72B5F121668EAFC00E3807F /* PortfolioDetailViewController.h */,
+				D72B5F131668EAFC00E3807F /* PortfolioDetailViewController.m */,
+				D72B5F141668EAFC00E3807F /* PortfolioDetailViewController.xib */,
+				D738ADD21670A16800433518 /* StockDetailViewController.h */,
+				D738ADD31670A16800433518 /* StockDetailViewController.m */,
+				D738ADD41670A16800433518 /* StockDetailViewController.xib */,
+				D7F1B3F7168DF468008BCBC3 /* StockDetailViewController~ipad.xib */,
+				D733908A166FA9AF0015B6F7 /* StockTableCell.h */,
+				D733908B166FA9AF0015B6F7 /* StockTableCell.m */,
+				D733908D166FA9E70015B6F7 /* StockTableCell.xib */,
+				D71870A8167213D5006F052E /* StockTableCell~ipad.xib */,
+				D7204496165E228D00B2E667 /* Supporting Files */,
+				D774FBEC166E054600BE5741 /* StockPortfolio.h */,
+				D774FBED166E054600BE5741 /* StockPortfolio.m */,
+				D774FBE9166E051F00BE5741 /* StockItem.h */,
+				D774FBEA166E051F00BE5741 /* StockItem.m */,
+				D72B5F171669012000E3807F /* FPAStore.h */,
+				D72B5F181669012000E3807F /* FPAStore.m */,
+				D76A97BD166CE74D00028EE6 /* TickerEditListViewController.h */,
+				D76A97BE166CE74D00028EE6 /* TickerEditListViewController.m */,
+				D76A97C1166CF41700028EE6 /* TickerDetailViewController.h */,
+				D76A97C2166CF41700028EE6 /* TickerDetailViewController.m */,
+				D76A97C3166CF41700028EE6 /* TickerDetailViewController.xib */,
+				D733907C166F57CA0015B6F7 /* YahooWebServiceRequest.h */,
+				D733907D166F57CA0015B6F7 /* YahooWebServiceRequest.m */,
+				D7339082166F76190015B6F7 /* YahooXmlQuote.h */,
+				D7339083166F76190015B6F7 /* YahooXmlQuote.m */,
+				D71870AF16723D0B006F052E /* YahooHistData.h */,
+				D71870B016723D0B006F052E /* YahooHistData.m */,
+				D71870AA16723C10006F052E /* StockChartViewController.h */,
+				D71870AB16723C10006F052E /* StockChartViewController.m */,
+				D71870AC16723C10006F052E /* StockChartViewController.xib */,
+			);
+			path = StockTicker;
+			sourceTree = "<group>";
+		};
+		D7204496165E228D00B2E667 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7204497165E228D00B2E667 /* StockTicker-Info.plist */,
+				D7204498165E228D00B2E667 /* InfoPlist.strings */,
+				D720449B165E228D00B2E667 /* main.m */,
+				D720449D165E228D00B2E667 /* StockTicker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D720448A165E228D00B2E667 /* StockTicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D72044A3165E228D00B2E667 /* Build configuration list for PBXNativeTarget "StockTicker" */;
+			buildPhases = (
+				D7204487165E228D00B2E667 /* Sources */,
+				D7204488165E228D00B2E667 /* Frameworks */,
+				D7204489165E228D00B2E667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StockTicker;
+			productName = StockTicker;
+			productReference = D720448B165E228D00B2E667 /* StockTicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7204482165E228D00B2E667 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FPA;
+				LastUpgradeCheck = 0500;
+				TargetAttributes = {
+					D720448A165E228D00B2E667 = {
+						DevelopmentTeam = F9X3Q42EHJ;
+					};
+				};
+			};
+			buildConfigurationList = D7204485165E228D00B2E667 /* Build configuration list for PBXProject "StockTicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D7204480165E228D00B2E667;
+			productRefGroup = D720448C165E228D00B2E667 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D720448A165E228D00B2E667 /* StockTicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7204489165E228D00B2E667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D720449A165E228D00B2E667 /* InfoPlist.strings in Resources */,
+				D72B5F161668EAFC00E3807F /* PortfolioDetailViewController.xib in Resources */,
+				D72B5F1B166916B300E3807F /* SectionHeaderPortfolioView.xib in Resources */,
+				D76A97C5166CF41700028EE6 /* TickerDetailViewController.xib in Resources */,
+				D733908E166FA9E70015B6F7 /* StockTableCell.xib in Resources */,
+				2E75822B189465AA00715F84 /* ios_stock_640x1136.png in Resources */,
+				D738ADD61670A16800433518 /* StockDetailViewController.xib in Resources */,
+				2E758229189465A200715F84 /* ios_stock_640x960.png in Resources */,
+				2E7582271894590700715F84 /* ios_stock_152x152.png in Resources */,
+				D730858E1670F40B00D822B4 /* SettingsViewController.xib in Resources */,
+				D73085931670F4B300D822B4 /* EditPortfolioViewController.xib in Resources */,
+				D71870A716720318006F052E /* SectionHeaderPortfolioView~ipad.xib in Resources */,
+				D71870A9167213D6006F052E /* StockTableCell~ipad.xib in Resources */,
+				D71870AE16723C11006F052E /* StockChartViewController.xib in Resources */,
+				2E758221189458DD00715F84 /* ios_stock_60x60.png in Resources */,
+				D7F1B3F8168DF468008BCBC3 /* StockDetailViewController~ipad.xib in Resources */,
+				2E758223189458EF00715F84 /* ios_stock_76x76.png in Resources */,
+				D72FB31F1693155B00AF5968 /* ios_stock_57x57.png in Resources */,
+				D72FB3201693155B00AF5968 /* ios_stock_72x72.png in Resources */,
+				D72FB3211693155B00AF5968 /* ios_stock_114x114.png in Resources */,
+				D72FB3221693155B00AF5968 /* ios_stock_144x144.png in Resources */,
+				D72FB3231693155B00AF5968 /* ios_stock_512x512.png in Resources */,
+				D72FB3241693155B00AF5968 /* ios_stock_1024x1024.png in Resources */,
+				D761EEA5169335430063F925 /* Default-568h@2x.png in Resources */,
+				2E758225189458FA00715F84 /* ios_stock_120x120.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7204487165E228D00B2E667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D720449C165E228D00B2E667 /* main.m in Sources */,
+				D72044A0165E228D00B2E667 /* FPAAppDelegate.m in Sources */,
+				D72044AA165E246800B2E667 /* MainViewController.m in Sources */,
+				D72B5F151668EAFC00E3807F /* PortfolioDetailViewController.m in Sources */,
+				D72B5F191669012000E3807F /* FPAStore.m in Sources */,
+				D72B5F2416691DA200E3807F /* SectionHeaderPortfolioView.m in Sources */,
+				D76A97BF166CE74E00028EE6 /* TickerEditListViewController.m in Sources */,
+				D76A97C4166CF41700028EE6 /* TickerDetailViewController.m in Sources */,
+				D774FBE8166E015100BE5741 /* StockTicker.xcdatamodeld in Sources */,
+				D774FBEB166E051F00BE5741 /* StockItem.m in Sources */,
+				D774FBEE166E054600BE5741 /* StockPortfolio.m in Sources */,
+				D733907E166F57CA0015B6F7 /* YahooWebServiceRequest.m in Sources */,
+				D7339084166F76190015B6F7 /* YahooXmlQuote.m in Sources */,
+				D733908C166FA9AF0015B6F7 /* StockTableCell.m in Sources */,
+				D738ADD51670A16800433518 /* StockDetailViewController.m in Sources */,
+				D730858D1670F40B00D822B4 /* SettingsViewController.m in Sources */,
+				D73085921670F4B300D822B4 /* EditPortfolioViewController.m in Sources */,
+				D71870AD16723C11006F052E /* StockChartViewController.m in Sources */,
+				D71870B116723D0C006F052E /* YahooHistData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D7204498165E228D00B2E667 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7204499165E228D00B2E667 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D72044A1165E228D00B2E667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = StockSticker;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D72044A2165E228D00B2E667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = StockSticker;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D72044A4165E228D00B2E667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = F9X3Q42EHJ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StockTicker/StockTicker-Prefix.pch";
+				INFOPLIST_FILE = "StockTicker/StockTicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/StockTicker\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D72044A5165E228D00B2E667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = F9X3Q42EHJ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StockTicker/StockTicker-Prefix.pch";
+				INFOPLIST_FILE = "StockTicker/StockTicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/StockTicker\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7204485165E228D00B2E667 /* Build configuration list for PBXProject "StockTicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D72044A1165E228D00B2E667 /* Debug */,
+				D72044A2165E228D00B2E667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D72044A3165E228D00B2E667 /* Build configuration list for PBXNativeTarget "StockTicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D72044A4165E228D00B2E667 /* Debug */,
+				D72044A5165E228D00B2E667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D774FBE6166E015100BE5741 /* StockTicker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D774FBE7166E015100BE5741 /* StockTicker.xcdatamodel */,
+			);
+			currentVersion = D774FBE7166E015100BE5741 /* StockTicker.xcdatamodel */;
+			path = StockTicker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D7204482165E228D00B2E667 /* Project object */;
+}
